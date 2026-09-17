@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+  
+  body {
+    @apply bg-white text-slate-900 antialiased selection:bg-brand-100 selection:text-brand-900;
+  }
+}
+
+/* Prose customizations */
+.prose h2, .prose h3 {
+  scroll-margin-top: 5rem;
+}
+
+.prose table {
+  @apply w-full text-left text-sm border-collapse my-6 rounded-lg overflow-hidden border border-slate-200;
+}
+
+.prose th {
+  @apply bg-slate-100 p-3 font-semibold text-slate-900 border-b border-slate-200;
+}
+
+.prose td {
+  @apply p-3 border-b border-slate-100 text-slate-700;
+}
+
+.prose tr:last-child td {
+  @apply border-b-0;
+}
+
+.prose tr:nth-child(even) td {
+  @apply bg-slate-50/50;
+}

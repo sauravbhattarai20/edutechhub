@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <circle cx="1050" cy="100" r="300" fill="#0284c7" fill-opacity="0.15"/>
+  <circle cx="150" cy="550" r="250" fill="#2563eb" fill-opacity="0.12"/>
+  
+  <!-- Badge -->
+  <rect x="100" y="110" width="340" height="42" rx="21" fill="#1e293b" stroke="#334155"/>
+  <text x="125" y="137" fill="#38bdf8" font-family="system-ui, sans-serif" font-size="16" font-weight="600">Educational Software &amp; ERP Authority</text>
+  
+  <!-- Title -->
+  <text x="100" y="240" fill="#ffffff" font-family="system-ui, sans-serif" font-size="54" font-weight="800" letter-spacing="-0.02em">EduTechHub</text>
+  <text x="100" y="320" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="32" font-weight="500">School ERP, Management Systems &amp; Accounting Software</text>
+  
+  <!-- Bullet Features -->
+  <rect x="100" y="400" width="300" height="60" rx="12" fill="#1e293b"/>
+  <text x="120" y="437" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="600">🏛️ Integrated ERP Guides</text>
+
+  <rect x="420" y="400" width="300" height="60" rx="12" fill="#1e293b"/>
+  <text x="440" y="437" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="600">📊 Double-Entry Accounting</text>
+
+  <rect x="740" y="400" width="300" height="60" rx="12" fill="#1e293b"/>
+  <text x="760" y="437" fill="#f8fafc" font-family="system-ui, sans-serif" font-size="18" font-weight="600">✅ Research-Backed Reviews</text>
+
+  <!-- URL footer -->
+  <text x="100" y="550" fill="#64748b" font-family="system-ui, sans-serif" font-size="18" font-weight="500">https://schoolerptech.com</text>
+</svg>
