@@ -5,6 +5,7 @@ import Footer from '@/components/layout/Footer';
 import JsonLd from '@/components/seo/JsonLd';
 import { generateOrganizationSchema, generateWebSiteSchema } from '@/lib/schema';
 import { SITE_NAME, SITE_URL } from '@/lib/seo';
+import { Analytics } from '@vercel/analytics/next';
 
 export const viewport: Viewport = {
   themeColor: '#006ac9',
@@ -66,6 +67,7 @@ export default function RootLayout({
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
