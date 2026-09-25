@@ -35,7 +35,7 @@ export default function ContactPage() {
               <Mail className="h-4 w-4 text-brand-600 shrink-0 mt-0.5" />
               <div>
                 <p className="font-semibold text-slate-800">Email</p>
-                <p>editorial@schoolerptech.com</p>
+                <p>editorial@bsaurav.com.np</p>
               </div>
             </div>
 

@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://schoolerptech.com';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.bsaurav.com.np';
 export const SITE_NAME = process.env.NEXT_PUBLIC_SITE_NAME || 'School ERP & Accounting Hub';
 export const DEFAULT_OG_IMAGE = `${SITE_URL}/images/og-default.svg`;
 
